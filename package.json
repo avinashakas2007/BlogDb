@@ -1,0 +1,19 @@
+{
+  "name": "ejs-challenge",
+  "version": "1.0.0",
+  "description": "This project is a simple blog website that uses a MongoDB database to store blog posts and user information. It's a great way to learn about web development and how to work with NoSQL databases.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^2.7.4",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.8.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}

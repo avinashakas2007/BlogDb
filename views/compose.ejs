@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+<!-- Compose Post Section -->
+<div class="container compose-container">
+    <h1 class="compose-title">Compose a New Post</h1>
+
+    <!-- Form to create a new post -->
+    <form action="/compose" method="post" class="compose-form">
+        <div class="form-group">
+            <label for="postTitle" class="form-label">Title</label>
+            <input id="postTitle" class="form-control form-input" type="text" name="postTitle" required placeholder="Enter post title">
+
+            <label for="postBody" class="form-label">Post</label>
+            <textarea id="postBody" class="form-control form-input" name="postBody" rows="5" required placeholder="Write your post here..."></textarea>
+        </div>
+
+        <button class="btn btn-submit" type="submit">Publish</button>
+    </form>
+</div>
+
+<%- include("partials/footer") %>

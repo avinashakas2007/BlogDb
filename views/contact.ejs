@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+
+<!-- Contact Form Section -->
+<div class="container contact-container">
+    <h1 class="contact-title">Contact Us</h1>
+
+    <!-- Contact Form -->
+    <form action="/contact" method="POST" class="contact-form">
+        <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-input" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Send</button>
+    </form>
+</div>
+
+<%- include("partials/footer") %>
