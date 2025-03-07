@@ -59,7 +59,7 @@ Welcome to **Wander & Wonder**, a space for creativity, connection, and sharing 
 
 5. Run the application:
    ```bash
-   npm start
+   node app.js
    ```
 
 6. Open `http://localhost:3000` in your browser to explore the app.
